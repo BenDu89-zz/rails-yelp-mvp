@@ -3,7 +3,6 @@ class CreateReviews < ActiveRecord::Migration[5.2]
     create_table :reviews do |t|
       t.text :content
       t.integer :rating
-
       t.timestamps
     end
   end
